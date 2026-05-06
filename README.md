@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cybersecurity Attack Simulation, Defense, and Security Monitoring Lab
 > A hands-on cybersecurity lab demonstrating attack simulation, detection, and defense using the ELK Stack.
 
@@ -231,3 +232,7 @@ This project demonstrates a full cybersecurity workflow:
 
 ## 📜 License
 MIT License
+=======
+# cyber-attack-simulation-lab
+Cybersecurity Attack Simulation, Defense, and Security Monitoring Lab using ELK Stack, DVWA, Cowrie honeypot, and security tools for attack detection, analysis, and mitigation.
+>>>>>>> 08ea6a8cfa355844c9b7c3f0159a06fdf5790ab6
