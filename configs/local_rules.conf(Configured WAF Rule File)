@@ -1,0 +1,4 @@
+SecRule ARGS "@rx (?i)(union\s+select|select\s+.+\s+from|insert\s+into|drop\s+table|or\s+1\s*=\s*1|--)" \
+"id:1001,phase:2,deny,status:403,log,msg:'SQL Injection Attempt Detected'"
+SecRule ARGS "@rx (?i)(<script|javascript:|on\w+\s*=|alert\()" \
+"id:1002,phase:2,deny,status:403,log,msg:'XSS Attempt Detected'"
