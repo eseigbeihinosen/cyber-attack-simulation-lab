@@ -139,6 +139,9 @@ This lab covers both **network-based attacks** and **web application vulnerabili
 ![Cowrie Logs](screenshots/cowrie-logs.png)
 *Captured SSH brute-force attempts*
 
+![Wireshark Capture](screenshots/wireshark-capture.png)
+*Wireshark packet analysis capturing traffic generated during reconnaissance and attack simulation*
+
 ---
 
 ## 🛡️ Defense and Mitigation
@@ -179,6 +182,7 @@ cyber-attack-simulation-lab/
 │   ├── xss.png
 │   ├── elk-dashboard.png
 │   ├── cowrie-logs.png
+│   ├── wireshark-capture.png
 │   ├── ufw.png
 │   ├── modsecurity-sqli.png
 │   └── modsecurity-xss.png
